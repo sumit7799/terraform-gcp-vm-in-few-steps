@@ -1,4 +1,4 @@
-withCredentials([file(credentialsId: '1bedeb03-6821-4e91-a404-5dfa56b6d721	', variable: 'GC_KEY')]) {
+withCredentials([file(credentialsId: "1bedeb03-6821-4e91-a404-5dfa56b6d721", variable: 'GC_KEY')]) {
 
     resource "google_compute_instance" "default" {
     name         = "virtual-machine-from-terraform"
