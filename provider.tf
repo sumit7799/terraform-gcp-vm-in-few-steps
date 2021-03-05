@@ -1,5 +1,5 @@
 # Specify the provider (GCP, AWS, Azure)
 provider "google" {
-project = "ac-shared-playground"
+project = "capable-memory-306620"
 region = "us-central1"
 }
