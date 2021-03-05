@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Plan') {
             steps {
-                sh "gcloud auth login"
+                sh "sudo gcloud auth login"
                 sh 'terraform init'
                 sh 'terraform plan'
                 sh 'terraform apply --auto-approve'
