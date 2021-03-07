@@ -3,7 +3,7 @@ pipeline {
     
     stages {
 	
-        stage('Plan') {
+        stage('destroy') {
             steps {
                 sh 'terraform destroy --auto-approve'
 
